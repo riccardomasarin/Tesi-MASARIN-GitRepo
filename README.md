@@ -1,7 +1,7 @@
 # Tesi-MASARIN: Attacks on Credibility in Online Social Networks
 
 ## Overview
-This repository contains the research materials and experiments for my thesis on **"Attacks on Credibility in Online Social Networks"**. The project investigates how credibility is attacked and undermined in online discourse, with a focus on multiple online communities including Reddit and Twitter.
+This repository contains the research materials and experiments for the thesis on **"Attacks on Credibility in Online Social Networks"**. The project investigates how credibility is attacked and undermined in online discourse, with a focus on multiple online communities including Reddit and Twitter.
 
 ## Repository Organization
 
