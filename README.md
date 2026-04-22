@@ -54,7 +54,9 @@ The research examines how credibility attacks manifest in online social networks
 
 ## Datasets
 1. **Climate Change Reddit**: Analysis of credibility discussions in the r/ClimateChange community
-2. **COVID-19 Twitter**: Study of misinformation and credibility attacks in COVID-19 discourse on Twitter
+   Perra, D., Failla, A., & Rossetti, G. (2024). Reddit Climate Change Debate Dataset (1.0.0) [Data set]. 27th International Conference on Discovery Science (DS2024), Pisa, Italy. Zenodo. https://doi.org/10.5281/zenodo.13603528
+3. **COVID-19 Twitter**: Study of misinformation and credibility attacks in COVID-19 discourse on Twitter
+   Mesina, V., Failla, A., Morini, V., & Rossetti, G. (2024). Italian Covid-19 Retweet Network (2020-2022) [Data set]. 13th International Conference on Complex Networks and Their Applications (CNA2024), Istanbul, Turkey. Zenodo. https://doi.org/10.5281/zenodo.13909011
 
 ---
 *Last updated: April 2026*
