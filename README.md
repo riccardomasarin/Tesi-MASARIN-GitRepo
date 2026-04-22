@@ -1,26 +1,60 @@
-# Thesis Project: Attacks on Credibility in Online Social Networks
+# Tesi-MASARIN: Attacks on Credibility in Online Social Networks
 
 ## Overview
-This thesis project investigates the various methods of attacking credibility in online social networks. The growing presence of social media has changed how information is disseminated and perceived. As a result, the credibility of information in online environments has become a crucial area of study, particularly concerning how malicious actors manipulate perceptions.
+This repository contains the research materials and experiments for my thesis on **"Attacks on Credibility in Online Social Networks"**. The project investigates how credibility is attacked and undermined in online discourse, with a focus on multiple online communities including Reddit and Twitter.
 
-## Objectives
-- **Understanding Credibility**: Explore what constitutes credibility in the context of online interactions.
-- **Identifying Attacks**: Classify the different types of attacks that undermine credibility.
-- **Impact Analysis**: Analyze how these attacks affect user trust and information dissemination.
-- **Mitigation Strategies**: Propose strategies to enhance credibility in online social interactions.
+## Repository Organization
 
-## Research Questions
-1. What are the most common tactics used to attack credibility in online platforms?
-2. How do these tactics vary across different social media networks?
-3. What are the psychological and social implications of these attacks on users?
+### Root Files
+- **`DeGroot_toy.m`** - MATLAB implementation of DeGroot's consensus dynamics model for network opinion formation
+- **`SignedDeGroot_toy.m`** - Extended version incorporating signed networks (positive and negative relationships)
+- **`README.md`** - Project documentation
 
-## Methodology
-The research will incorporate qualitative and quantitative methods, including survey studies, social media analysis, and case studies of notable credibility attacks. This mixed-method approach will provide a comprehensive understanding of the dynamics at play.
+### ClimateChangeSubreddit/
+Main analysis folder containing experiments and data from the r/ClimateChange subreddit community:
 
-## Expected Outcomes
-- A detailed analysis of credibility attacks and their repercussions on user trust.
-- Recommendations for users and platforms to maintain and enhance information credibility.
-- Contribution to academic literature on credibility in online communication.
+#### Data Files
+- **`climatechange-1.csv` through `climatechange-4.csv`** - Raw Reddit discussion datasets (segmented into multiple parts)
+- **`climatechange-opinions.csv`** - Processed user opinions and sentiment data
 
-## Conclusion
-This project aims to shed light on the critical issue of credibility in digital interactions, ultimately paving the way for safer and more trustworthy online environments.
+#### Analysis Notebook
+- **`DS2024-exp.ipynb`** - Jupyter notebook containing the complete experimental analysis, including data exploration, opinion dynamics simulation, and credibility attack patterns
+
+#### Visualizations
+- **`graph.png`** - Network graph visualization of user interactions
+- **`sampled_subgraph_Q1.png`** & **`sampled_subgraph_clean_Q1.png`** - Subgraph visualizations with and without noise
+- **`polarization-cc.png`** - Polarization metrics over time
+- **`acrophily-cc.png`**, **`acrophily-matrix-cc.png`**, **`acrophily-time-cc.png`** - Acrophily (assortative mixing) analysis
+- **`thresholds-cc.png`** - Opinion threshold dynamics
+
+### Covid19Retweet/
+Dataset and analysis folder containing Twitter data related to COVID-19 discussions:
+
+#### Data Files
+- **COVID-19 retweet datasets** - Raw Twitter data capturing retweet patterns and user interactions related to COVID-19 misinformation and credibility discussions
+- **`covid19-opinions.csv`** - Processed user opinions and sentiment regarding COVID-19 information
+
+#### Analysis Materials
+- Experimental notebooks analyzing credibility attacks in COVID-19 discourse
+- Network analysis of information propagation and retweeting patterns
+- Identification of misinformation clusters and credibility-attacking content
+
+#### Visualizations
+- Network graphs of COVID-19 information spread
+- Retweet pattern analysis and temporal dynamics
+- Polarization and sentiment distribution in COVID-19 discussions
+
+## Project Focus
+The research examines how credibility attacks manifest in online social networks, using opinion dynamics models and real-world data from Reddit and Twitter to analyze polarization, information propagation, misinformation patterns, and network behavior across different discourse contexts.
+
+## Technologies Used
+- **Python** (Jupyter Notebooks for data analysis)
+- **MATLAB** (Opinion dynamics modeling)
+- Data analysis and network visualization
+
+## Datasets
+1. **Climate Change Reddit**: Analysis of credibility discussions in the r/ClimateChange community
+2. **COVID-19 Twitter**: Study of misinformation and credibility attacks in COVID-19 discourse on Twitter
+
+---
+*Last updated: April 2026*
