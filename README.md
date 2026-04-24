@@ -3,10 +3,10 @@
 ## Overview
 This repository contains the research materials and experiments for the thesis **"Attacks to Credibility in Online Social Networks"**. The project investigates how credibility is attacked and undermined in online discussions, with a focus on the online communities of Reddit and Twitter.
 
-## Project Focus
+## Focus
 The research examines how credibility attacks manifest in online social networks, using opinion dynamics models and real-world data from Reddit and Twitter to analyze polarization, information propagation, misinformation patterns, and network behavior across different discourse contexts.
 
-## Technologies Used
+## Language Used
 - **Python** for Data preprocessing and analysis 
 - **MATLAB** for Opinion dynamics modeling and network visualization
 
